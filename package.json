@@ -1,0 +1,25 @@
+{
+  "name": "wt-tools",
+  "version": "0.1.0",
+  "description": "CLI tools for streamlined git worktree management",
+  "type": "module",
+  "bin": {
+    "ga": "./bin/ga",
+    "gd": "./bin/gd"
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
+  "dependencies": {
+    "picocolors": "^1.1.1",
+    "ora": "^8.1.1",
+    "@inquirer/prompts": "^7.2.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
