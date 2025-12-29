@@ -1,5 +1,5 @@
 {
-  "name": "wt-tools",
+  "name": "worktree-tools",
   "version": "0.1.0",
   "description": "CLI tools for streamlined git worktree management",
   "type": "module",

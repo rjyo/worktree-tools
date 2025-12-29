@@ -1,4 +1,4 @@
-# wt-tools
+# worktree-tools
 
 Fast git worktree management with great DX.
 
@@ -15,17 +15,17 @@ gd
 Git worktrees let you work on multiple branches simultaneously without stashing or committing WIP. But the commands are verbose:
 
 ```bash
-# Without wt-tools
+# Without worktree-tools
 git worktree add -b feature-login ../my-app--feature-login
 cd ../my-app--feature-login
 bun install
 cd src/components  # if you were in a subfolder
 
-# With wt-tools
+# With worktree-tools
 ga feature-login
 ```
 
-**wt-tools** wraps this into two simple commands with:
+**worktree-tools** wraps this into two simple commands with:
 
 - Automatic `bun install` after creation
 - Subfolder preservation (stay in `src/components` across worktrees)
@@ -36,10 +36,10 @@ ga feature-login
 
 ```bash
 # npm
-npm install -g wt-tools
+npm install -g worktree-tools
 
 # bun
-bun install -g wt-tools
+bun install -g worktree-tools
 ```
 
 ### Shell Integration

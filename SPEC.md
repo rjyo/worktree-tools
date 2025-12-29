@@ -1,13 +1,13 @@
-# wt-tools
+# worktree-tools
 
 CLI tools for streamlined git worktree management with great DX.
 
 ## Installation
 
 ```bash
-npm install -g wt-tools
+npm install -g worktree-tools
 # or
-bun install -g wt-tools
+bun install -g worktree-tools
 ```
 
 ## Commands
@@ -105,7 +105,7 @@ Run:
 
 ## Shell Integration
 
-Since a child process cannot change the parent shell's directory, wt-tools outputs shell commands to execute. For seamless DX, add shell functions:
+Since a child process cannot change the parent shell's directory, worktree-tools outputs shell commands to execute. For seamless DX, add shell functions:
 
 ### Bash / Zsh
 
@@ -178,7 +178,7 @@ This allows:
 ## Package Structure
 
 ```
-wt-tools/
+worktree-tools/
 ├── src/
 │   ├── cli.ts          # Entry point, argument parsing
 │   ├── commands/
@@ -203,7 +203,7 @@ wt-tools/
 
 ```json
 {
-  "name": "wt-tools",
+  "name": "worktree-tools",
   "version": "0.1.0",
   "bin": {
     "ga": "./bin/ga",
